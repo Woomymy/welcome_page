@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Iosevka';
     src: url(../fonts/Iosevka\ Bold\ Nerd\ Font\ Complete.ttf);
-  }
+}
 
 * {
     background-color: #333;
@@ -11,4 +11,19 @@
 
 .center {
 	text-align: center;
+}
+
+#search {
+	border-radius: 15px;
+	border: 2px solid #D81B60;
+	outline: none;
+	padding: 20px;
+}
+.btn {
+	border: 2px solid #D81B60;
+	background: #D81B60;
+	padding: 20px;
+        height: 55px;
+        /* width: 100px;  */
+        border-radius: 45%;
 }
