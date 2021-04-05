@@ -14,7 +14,7 @@
 }
 
 #search {
-	border-radius: 15px;
+	border-radius: 10rem;
 	border: 2px solid #D81B60;
 	outline: none;
 	padding: 20px;
@@ -24,6 +24,5 @@
 	background: #D81B60;
 	padding: 20px;
         height: 55px;
-        /* width: 100px;  */
-        border-radius: 45%;
+	border-radius: 10rem;
 }
