@@ -21,7 +21,7 @@ h1 {
 
 form {
   background-color: #bd9aff;
-  width: 300px;
+  width: 55%;
   height: 44px;
   border-radius: 5px;
   display: flex;
@@ -39,7 +39,6 @@ input {
   caret-color: #4a4a4a;
   height: 100%;
   width: 100%;
-  padding: 7px 10px;
 }
 
 ::placeholder {
