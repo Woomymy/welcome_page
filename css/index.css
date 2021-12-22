@@ -1,35 +1,59 @@
 @font-face {
-    font-family: 'Iosevka';
-    src: url(../fonts/Iosevka\ Bold\ Nerd\ Font\ Complete.ttf);
+  font-family: "Iosevka";
+  src: url(../fonts/Iosevka\ Bold\ Nerd\ Font\ Complete.ttf);
 }
 
 * {
-    background-color: #333;
-    color: white;
-    font-family: 'Iosevka', sans-serif;
+  font-family: Iosevka;
+  text-align: center;
+  align-self: center;
+}
+
+body {
+  background-color: #56595b;
+  display: block;
+  margin: 8px;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+form {
+  background-color: #bd9aff;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin: 40px;
+  box-shadow: 0 4px 8px 0 #4a4a4a, 0 6px 20px 0 #4a4a4a;
+}
+
+input {
+  all: unset;
+  font: 18px;
+  color: #000000;
+  caret-color: #4a4a4a;
+  height: 100%;
+  width: 100%;
+  padding: 7px 10px;
+}
+
+::placeholder {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+a {
+  color: #ff837d;
+  padding-top: 10px;
 }
 
 .center {
-	text-align: center;
-}
-
-#search {
-	border-radius: 10rem;
-	border: 2px solid #D81B60;
-	outline: none;
-	padding: 20px;
-}
-.btn {
-	border: 2px solid #D81B60;
-	background: #D81B60;
-	padding: 20px;
-        height: 55px;
-	border-radius: 10rem;
-}
-.links {
-	text-align: center;
-	padding: 20px;
-}
-.links a {
-	color: #ff99ff;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
